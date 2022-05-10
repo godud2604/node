@@ -11,8 +11,9 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/debug/app.js",
-      "runtimeExecutable": "nodemon",
+      "program": "${workspaceFolder}/photo/app.js",
+      "args": ["test"],    // 테스트 하고자 하는 폴더 이름
+      "runtimeExecutable": "node",
       "restart": true
     }
   ]
